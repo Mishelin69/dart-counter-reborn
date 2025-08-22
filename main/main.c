@@ -1,4 +1,5 @@
 #include "waveshare_rgb_lcd_port.h"
+#include "./app/app.h"
 
 void ram_monitor_task() {
     while (true) {
@@ -18,7 +19,7 @@ void app_main() {
     ESP_LOGI(TAG, "Display LVGL demos");
     // Lock the mutex due to the LVGL APIs are not thread-safe
     if (lvgl_port_lock(-1)) {
-        //
+        app_create();
         // Release the mutex
         lvgl_port_unlock();
     }
