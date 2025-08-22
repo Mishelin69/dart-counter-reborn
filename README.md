@@ -17,9 +17,9 @@ Before building, make sure you have:
 
 ## ⚡ Build Instructions
 
-1. **Clone the repository**
+1. **Clone the repository and cd into it**
    ```bash
-   git clone https://github.com/your-username/dart-counter.git
+   git clone https://github.com/Mishelin69/dart-counter.git
    cd dart-counter
    ```
 
