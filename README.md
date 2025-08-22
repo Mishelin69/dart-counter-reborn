@@ -1,7 +1,13 @@
-# 🎯 Dart Counter (ESP32-S3)
+# 🎯 Dart Counter (ESP32-S3 + Waveshare 4.3″ Touch LCD)
 
-This project is a dart counter application built with [ESP-IDF](https://github.com/espressif/esp-idf) for the **ESP32-S3** microcontroller.  
+This project is a dart counter application built with [ESP-IDF](https://github.com/espressif/esp-idf) for the **ESP32-S3** microcontroller, targeting the **Waveshare ESP32-S3 Touch LCD 4.3″** development board.  
 It was developed and tested on **Ubuntu 24.04.2 LTS (x86_64)** using **ESP-IDF v5.5**.
+
+---
+
+##  Supported Hardware
+
+- **Development Board**: [Waveshare ESP32-S3 Touch LCD 4.3″](https://www.waveshare.com/esp32-s3-touch-lcd-4.3.htm)
 
 ---
 
