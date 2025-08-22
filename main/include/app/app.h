@@ -9,5 +9,3 @@ void app_create();
 void app_create_main_window();
 
 void app_main_window_set_styles();
-
-void app_create_app_pages();
