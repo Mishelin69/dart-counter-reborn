@@ -1,0 +1,8 @@
+.cache/
+build/
+managed_components/
+
+.clangd
+sdkconfig.old
+sdkconfig
+dependencies.lock
