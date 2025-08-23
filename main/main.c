@@ -1,5 +1,5 @@
 #include "waveshare_rgb_lcd_port.h"
-#include "./app/app.h"
+#include "app/app.h"
 
 void ram_monitor_task() {
     while (true) {
